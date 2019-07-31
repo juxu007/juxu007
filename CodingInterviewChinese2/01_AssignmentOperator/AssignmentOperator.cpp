@@ -58,7 +58,7 @@ CMyString::CMyString(const CMyString &str)
 
 CMyString::~CMyString()
 {
-    delete[] m_pData;
+    delete []m_pData;
 }
 
 CMyString& CMyString::operator = (const CMyString& str)

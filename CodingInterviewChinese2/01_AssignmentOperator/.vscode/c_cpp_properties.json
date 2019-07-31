@@ -1,0 +1,84 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "D:/mingw-w64/mingw64/opt/include",
+                "D:/mingw-w64/mingw64/x86_64-w64-mingw32/include",
+                "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits",
+                "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits",
+                "D:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys",
+                "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+                "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "D:/mingw-w64/mingw64/opt/include",
+                    "D:/mingw-w64/mingw64/x86_64-w64-mingw32/include",
+                    "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                    "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                    "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits",
+                    "D:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits",
+                    "D:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

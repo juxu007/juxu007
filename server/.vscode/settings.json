@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "editor.fontFamily": "'Microsoft YaHei', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Microsoft YaHei Normal'",
+    "editor.fontSize": 12
+}
