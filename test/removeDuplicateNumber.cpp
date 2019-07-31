@@ -66,6 +66,6 @@ int main()
     printf("\n");
     free(p);
     p = NULL;
-    system("pause");
+    //system("pause");
     return 0;
 }
