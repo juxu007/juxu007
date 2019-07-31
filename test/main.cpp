@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-
+    MYSQL mysql;
 
     if(!mysql_init(&mysql)){
         printf("mysql_init() failed!\n");
